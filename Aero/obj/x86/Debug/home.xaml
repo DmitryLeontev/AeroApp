@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Aero.home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Aero"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid VerticalAlignment="Top" Height="180" HorizontalAlignment="Stretch">
+            <Grid HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch">
+                <Image Source="/Assets/SplashScreen.scale-125.png" HorizontalAlignment="Center" Stretch="Uniform" Margin="0,0,0,43"/>
+                <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontFamily="Consolas" Margin="0,96,0,0">ПАРУСА</TextBlock>
+            </Grid>
+        </Grid>
+        <VariableSizedWrapGrid MaximumRowsOrColumns="2" ItemHeight="143" ItemWidth="163" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid  BorderBrush="#FF0E0C0C" BorderThickness="2" Width="155" Height="136">
+                <Button x:ConnectionId='5' x:Name="goFlight"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{ThemeResource SystemControlAccentAcrylicElementAccentMediumHighBrush}"                        >
+                    <TextBlock Margin="44,47,-42,-47" FontSize="14">Рейсы</TextBlock>
+                </Button>
+            </Grid>
+            <Grid  BorderBrush="#FF0E0C0C" BorderThickness="2" Width="155" Height="136">
+                <Button x:ConnectionId='4' x:Name="discountBtn"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{ThemeResource HyperlinkPressedForegroundThemeBrush}"                           >
+                    <TextBlock Margin="46,47,-44,-47" FontSize="14" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">Акции</TextBlock>
+                </Button>
+            </Grid>
+            <Grid  BorderBrush="#FF0E0C0C" BorderThickness="2" Width="155" Height="136">
+                <Button x:ConnectionId='3' x:Name="ordersBtn"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{ThemeResource HyperlinkPressedForegroundThemeBrush}"                         >
+                    <TextBlock Margin="44,47,-42,-47" FontSize="14">Заказы</TextBlock>
+                </Button>
+            </Grid>
+            <Grid  BorderBrush="#FF0E0C0C" BorderThickness="2" Width="155" Height="136">
+                <Button x:ConnectionId='2' x:Name="myPortalBtn"   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="{ThemeResource SystemControlAccentAcrylicElementAccentMediumHighBrush}"                           >
+                    <TextBlock Margin="13,47,-11,-47" FontSize="14">Личный кабинет</TextBlock>
+                </Button>
+            </Grid>
+        </VariableSizedWrapGrid>
+    </Grid>
+</Page>
+
