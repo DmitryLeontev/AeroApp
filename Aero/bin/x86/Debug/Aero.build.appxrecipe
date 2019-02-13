@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ca1455ff-073b-4f99-aff9-349d85a1e567</PackageIdentityName>
     <PackageIdentityPublisher>CN=dimas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\dimas\source\repos\Aero\Aero\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\dimas\Documents\AeroApp\Aero\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\Aero.exe">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\Aero.exe">
       <PackagePath>entrypoint\Aero.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -373,243 +373,246 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\Aero.xr.xml">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\Aero.xr.xml">
       <PackagePath>Aero.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\discountPage.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\discountPage.xbf">
       <PackagePath>discountPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\home.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\FindFlights.xbf">
+      <PackagePath>FindFlights.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\home.xbf">
       <PackagePath>home.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\myPortal.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\myPortal.xbf">
       <PackagePath>myPortal.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\orders.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\orders.xbf">
       <PackagePath>orders.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\flights.xbf">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\flights.xbf">
       <PackagePath>flights.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dimas\source\repos\Aero\Aero\bin\x86\Debug\Core\Aero.exe">
+    <AppxPackagedFile Include="C:\Users\dimas\Documents\AeroApp\Aero\bin\x86\Debug\Core\Aero.exe">
       <PackagePath>Aero.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

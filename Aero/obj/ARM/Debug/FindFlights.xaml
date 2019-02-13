@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="Aero.FindFlights"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Aero"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel >
+        <Grid VerticalAlignment="Top" Height="180" HorizontalAlignment="Stretch">
+            <Image Source="/Assets/SplashScreen.scale-125.png" HorizontalAlignment="Center" Stretch="Uniform" Margin="0,0,0,24"/>
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontFamily="Consolas" Margin="0,114,0,0">ПАРУСА</TextBlock>
+        </Grid>
+        <AutoSuggestBox x:ConnectionId='2' x:Name="fromBox" PlaceholderText="Откуда" 
+        QueryIcon="Find"  VerticalAlignment="Top" HorizontalAlignment="Stretch" MinWidth="270" MaxWidth="450" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="320" Margin="0,5,0,5" />
+        <HyperlinkButton x:ConnectionId='3'  x:Name="reverseLink" Content = "&#xE8CB;" HorizontalAlignment="Center" FontFamily="Segoe MDL2 Assets" FontSize="24" RequestedTheme="Default">
+            <HyperlinkButton.ContentTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" />
+                </DataTemplate>
+            </HyperlinkButton.ContentTemplate>
+        </HyperlinkButton>
+        <AutoSuggestBox x:ConnectionId='4' x:Name="toBox" PlaceholderText="Куда" 
+        QueryIcon="Find"  VerticalAlignment="Top" HorizontalAlignment="Stretch" MinWidth="270" MaxWidth="450" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="320" Margin="0,5,0,5" />
+        <CalendarDatePicker PlaceholderText="Туда" HorizontalAlignment="Center" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5"/>
+        <CalendarDatePicker PlaceholderText="Обратно" HorizontalAlignment="Center" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5"/>
+        <TextBox PlaceholderText="Количество пассажиров" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5" AutomationProperties.ItemType="int"></TextBox>
+        
+    </StackPanel>
+</Page>
+

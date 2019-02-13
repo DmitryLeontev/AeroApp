@@ -122,6 +122,9 @@
     <Compile Include="discountPage.xaml.cs">
       <DependentUpon>discountPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FindFlights.xaml.cs">
+      <DependentUpon>FindFlights.xaml</DependentUpon>
+    </Compile>
     <Compile Include="home.xaml.cs">
       <DependentUpon>home.xaml</DependentUpon>
     </Compile>
@@ -205,6 +208,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="discountPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FindFlights.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

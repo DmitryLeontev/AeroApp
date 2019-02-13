@@ -32,7 +32,7 @@
                             <TextBlock FontSize="24" Text="Главная" Margin="10 0 0 0" />
                         </StackPanel>
                     </ListBoxItem>
-                    <ListBoxItem x:ConnectionId='5' Name="flights">
+                    <ListBoxItem x:ConnectionId='5' Name="FindFlights">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontSize="36" FontFamily="Segoe MDL2 Assets" Text="&#xE709;" />
                             <TextBlock FontSize="24" Text="Рейсы" Margin="10 0 0 0" />

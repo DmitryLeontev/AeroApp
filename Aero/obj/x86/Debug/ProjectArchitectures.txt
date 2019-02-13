@@ -1,1 +1,1 @@
-C:\Users\dimas\source\repos\Aero\Aero\Aero.csproj;x86
+C:\Users\dimas\Documents\AeroApp\Aero\Aero.csproj;x86

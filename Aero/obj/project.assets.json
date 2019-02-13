@@ -27915,11 +27915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dimas\\source\\repos\\Aero\\Aero\\Aero.csproj",
+      "projectUniqueName": "C:\\Users\\dimas\\Documents\\AeroApp\\Aero\\Aero.csproj",
       "projectName": "Aero",
-      "projectPath": "C:\\Users\\dimas\\source\\repos\\Aero\\Aero\\Aero.csproj",
+      "projectPath": "C:\\Users\\dimas\\Documents\\AeroApp\\Aero\\Aero.csproj",
       "packagesPath": "C:\\Users\\dimas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dimas\\source\\repos\\Aero\\Aero\\obj\\",
+      "outputPath": "C:\\Users\\dimas\\Documents\\AeroApp\\Aero\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

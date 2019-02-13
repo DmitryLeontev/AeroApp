@@ -35,9 +35,9 @@ namespace Aero
                 myFrame.Navigate(typeof(home), this);
                 TitleTextBlock.Text = "Главная";
             }
-            else if (flights.IsSelected)
+            else if (FindFlights.IsSelected)
             {
-                myFrame.Navigate(typeof(flights), this);
+                myFrame.Navigate(typeof(FindFlights), this);
                 TitleTextBlock.Text = "Рейсы";
             }
             else if (orders.IsSelected)
