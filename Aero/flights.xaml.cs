@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 
 // Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -20,30 +22,47 @@ namespace Aero
     /// <summary>
     /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
     /// </summary>
+    /// 
+    public class FlClass
+    {
+        public Visibility vis { get; set; }
+        public int id;
+        public FlClass( Visibility vi, int ID)
+        {
+            vis = vi;
+            id = ID;
+        }
+    }
     public sealed partial class flights : Page
     {
+        public List<FlClass> Fls { get; set; }
         public flights()
         {
             this.InitializeComponent();
             itemsFlights.CanBeScrollAnchor = true;
             itemsFlights.SelectionMode = ListViewSelectionMode.None;
-
+            add();
         }
-
+        private void add()
+        {
+            Fls = new List<FlClass> { new FlClass (Visibility.Collapsed, 1), new FlClass(Visibility.Collapsed,2), new FlClass(Visibility.Visible,3) };
+            itemsFlights.ItemsSource = Fls;
+        }
         private void MoreInfoBtn_Click(object sender, RoutedEventArgs e)
         {
-            
-            if (moreInfo.Visibility == Visibility.Collapsed)
+            ListViewItem item = (ListViewItem)((StackPanel)((VariableSizedWrapGrid)((StackPanel)
+                (((HyperlinkButton)e.OriginalSource)
+                .Parent)).Parent).Parent).Parent;
+            FlClass fl = (FlClass)item.DataContext;
+            if (fl.vis == Visibility.Collapsed)
             {
-                
-                moreInfo.Visibility = Visibility.Visible;
-                
+                fl.vis = Visibility.Visible;
             }
-            else
-            {
-               
-                moreInfo.Visibility = Visibility.Collapsed;
-            }
+            else fl.vis = Visibility.Collapsed;
+
+            int ind=  Fls.FindIndex(q=>q.id==fl.id);
+            Fls[ind] = fl;
+            itemsFlights.ItemsSource = Fls;
         }
     }
 }
