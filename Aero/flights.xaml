@@ -9,14 +9,76 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Grid VerticalAlignment="Top" Height="180" HorizontalAlignment="Stretch">
-                <Image Source="/Assets/SplashScreen.scale-125.png" HorizontalAlignment="Center" Stretch="Uniform" Margin="0,0,0,24"/>
-                <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontFamily="Consolas" Margin="0,114,0,0">ПАРУСА</TextBlock>
-            </Grid>
-            <Grid Background="LightGray" Height="100" Margin="10,10,10,10" BorderBrush="Black" BorderThickness="1" />
-            <Grid Background="LightGreen" Height="100" Margin="10,10,10,10"  BorderBrush="Black" BorderThickness="1"/>
-            <Grid Background="LightPink" Height="100"  Margin="10,10,10,10"  BorderBrush="Black" BorderThickness="1"/>
-        </StackPanel>
+        <ScrollViewer>
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid VerticalAlignment="Top" Height="180" HorizontalAlignment="Stretch">
+                    <Image Source="/Assets/SplashScreen.scale-125.png" HorizontalAlignment="Center" Stretch="Uniform" Margin="0,0,0,24"/>
+                    <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontFamily="Consolas" Margin="0,114,0,0">ПАРУСА</TextBlock>
+                </Grid>
+                <Grid  BorderBrush="CadetBlue" BorderThickness="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0,10,0" Padding="0,7,0,7">
+                    <TextBlock Text="ТУДА" FontSize="18" FontWeight="Bold" Margin="5,0,0,0"/>
+                </Grid>
+                <ListView x:Name="itemsFlights" HorizontalAlignment="Stretch">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListViewItem  Background="#FFDBEAFF" Padding="10"  Margin="10,10,10,10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch">
+                        <StackPanel>
+                            <VariableSizedWrapGrid MaximumRowsOrColumns="1" ItemWidth="128"  Width="389">
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Left" Padding="0,0,0,0">
+                                    <TextBlock  Text="HR-758" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
+                                    <TextBlock  Text="IKT-MAN" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Stretch" FontSize="16" FontWeight="Bold" Padding="0,10,0,10" UseLayoutRounding="False"/>
+                                    <TextBlock  Text="A320neo" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Stretch"/>
+                                </StackPanel>
+                                <StackPanel Margin="20,0,20,0">
+                                    <TextBlock  Text="24 фев. 18:30" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                                    <HyperlinkButton  x:Name="moreInfoBtn" Content = "&#xE70D;" HorizontalAlignment="Center" FontFamily="Segoe MDL2 Assets" FontSize="20" RequestedTheme="Default" Click="MoreInfoBtn_Click">
+                                        <HyperlinkButton.ContentTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding}" />
+                                            </DataTemplate>
+                                        </HyperlinkButton.ContentTemplate>
+                                    </HyperlinkButton>
+                                    <TextBlock  Text="24 фев. 23:30" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel VerticalAlignment="Center" Height="50">
+                                    <Button FontWeight="Bold" FontSize="18"   Content="25 000 руб."  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="50"/>
+                                </StackPanel>
+                            </VariableSizedWrapGrid>
+                            <Grid x:Name="moreInfo" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="25,35,0,10" Visibility="Collapsed" >
+                                <StackPanel>
+                                    <TextBlock  Text="Рейс № HR-758" TextWrapping="Wrap" VerticalAlignment="Stretch" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+                                    <TextBlock Text="Из:"  FontSize="14" Margin="0,5,0,5" HorizontalAlignment="Left" FontWeight="Bold"/>
+                                    <TextBlock x:Name="cit1" TextWrapping="Wrap" Text="Иркутск, Россия (IKT)"  FontSize="16"  HorizontalAlignment="Center"/>
+                                    <TextBlock Text="В:"  FontSize="14" Margin="0,5,0,5" HorizontalAlignment="Left" FontWeight="Bold"/>
+                                    <TextBlock x:Name="cit2" TextWrapping="Wrap" Text="Манчестер, Великобритания (MAN)"  FontSize="16"  HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Дата вылета:"  FontSize="14" Margin="0,5,0,5" HorizontalAlignment="Left" FontWeight="Bold"/>
+                                    <TextBlock x:Name="timeStart" TextWrapping="Wrap" Text="24 ферваля 2019 в 18:30"  FontSize="16"  HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Дата прибытия:"  FontSize="14" Margin="0,5,0,5" HorizontalAlignment="Left" FontWeight="Bold"/>
+                                    <TextBlock x:Name="timeEnd" TextWrapping="Wrap" Text="24 февраля 2019 в 23:30"  FontSize="16"  HorizontalAlignment="Center"/>
+                                    <VariableSizedWrapGrid Orientation="Horizontal" MaximumRowsOrColumns="2" ItemWidth="180" ItemHeight="35" Margin="0,15,0,0">
+                                        <TextBlock FontSize="14" FontWeight="Bold" Text="Длительность полета: "/>
+                                        <TextBlock Text="5 ч."/>
+                                        <TextBlock FontSize="14" FontWeight="Bold" Text="Класс обслуживания: "/>
+                                        <TextBlock Text="Эконом"/>
+                                        <TextBlock FontSize="14" FontWeight="Bold" Text="Число пассажиров: "/>
+                                        <TextBlock Text="2 чел."/>
+                                        <TextBlock FontSize="16" FontWeight="Bold" Text="Стоимость: "/>
+                                        <TextBlock FontSize="16" FontWeight="Bold" Text="25 000 руб."/>
+                                    </VariableSizedWrapGrid>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Background="LightGreen" Height="100" Margin="10,10,10,10"  BorderBrush="Black" BorderThickness="1"/>
+                    <ListViewItem Background="LightPink" Height="100"  Margin="10,10,10,10"  BorderBrush="Black" BorderThickness="1"/>
+                </ListView>
+                <Grid  BorderBrush="CadetBlue" BorderThickness="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0,10,0" Padding="0,7,0,7">
+                    <TextBlock Text="ОБРАТНО" FontSize="18" FontWeight="Bold" Margin="5,0,0,0"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

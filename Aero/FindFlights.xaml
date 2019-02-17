@@ -26,7 +26,7 @@
         QueryIcon="Find"  VerticalAlignment="Top" HorizontalAlignment="Stretch" MinWidth="270" MaxWidth="450" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="320" Margin="0,5,0,5" />
         <CalendarDatePicker PlaceholderText="Туда" HorizontalAlignment="Center" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5"/>
         <CalendarDatePicker PlaceholderText="Обратно" HorizontalAlignment="Center" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5"/>
-        <TextBox x:Name="countPass" PlaceholderText="Количество пассажиров" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5" InputScope="Number" KeyUp="CountPass_KeyUp" />
-        <Button  Width="320" Margin="0,10,0,10" HorizontalAlignment="Stretch" Height="40" Content="Найти" Background="#FF1B60FC" Foreground="White"/>
+        <TextBox x:Name="countPass" PlaceholderText="Количество пассажиров" MinWidth="270" MaxWidth="450" Width="320" Margin="0,5,0,5" InputScope="Number" />
+        <Button  Width="320" Margin="0,10,0,10" HorizontalAlignment="Stretch" Height="40" Content="Найти" Background="#FF1B60FC" Foreground="White" Click="Button_Click"/>
     </StackPanel>
 </Page>

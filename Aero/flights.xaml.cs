@@ -25,7 +25,25 @@ namespace Aero
         public flights()
         {
             this.InitializeComponent();
+            itemsFlights.CanBeScrollAnchor = true;
+            itemsFlights.SelectionMode = ListViewSelectionMode.None;
+
         }
-        
+
+        private void MoreInfoBtn_Click(object sender, RoutedEventArgs e)
+        {
+            
+            if (moreInfo.Visibility == Visibility.Collapsed)
+            {
+                
+                moreInfo.Visibility = Visibility.Visible;
+                
+            }
+            else
+            {
+               
+                moreInfo.Visibility = Visibility.Collapsed;
+            }
+        }
     }
 }
