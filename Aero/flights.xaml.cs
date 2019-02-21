@@ -35,7 +35,7 @@ namespace Aero
     }
     public sealed partial class flights : Page
     {
-        public List<FlClass> Fls { get; set; }
+        ObservableCollection<FlClass> Fls = new ObservableCollection<FlClass>();
         public flights()
         {
             this.InitializeComponent();
@@ -45,7 +45,7 @@ namespace Aero
         }
         private void add()
         {
-            Fls = new List<FlClass> { new FlClass (Visibility.Collapsed, 1), new FlClass(Visibility.Collapsed,2), new FlClass(Visibility.Visible,3) };
+            Fls = new ObservableCollection<FlClass> { new FlClass(Visibility.Collapsed, 1), new FlClass(Visibility.Collapsed, 2), new FlClass(Visibility.Visible, 3) };
             itemsFlights.ItemsSource = Fls;
         }
         private void MoreInfoBtn_Click(object sender, RoutedEventArgs e)
@@ -60,8 +60,9 @@ namespace Aero
             }
             else fl.vis = Visibility.Collapsed;
 
-            int ind=  Fls.FindIndex(q=>q.id==fl.id);
-            Fls[ind] = fl;
+            FlClass ind=  Fls.FirstOrDefault(q=>q.id==fl.id);
+            int index = Fls.IndexOf(ind);
+            Fls[index] = fl;
             itemsFlights.ItemsSource = Fls;
         }
     }
