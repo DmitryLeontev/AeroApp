@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Aero.Models;
 
 // Документацию по шаблону элемента "Пустая страница" см. по адресу https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,6 +26,16 @@ namespace Aero
         public discountPage()
         {
             this.InitializeComponent();
+            FillActions();
+
+        }
+        public void FillActions()
+        {
+            using (var context = new parusaContext())
+            {
+                var actions = context.Bonus.ToList();
+                itemsActions.ItemsSource = actions;
+            }
         }
     }
 }

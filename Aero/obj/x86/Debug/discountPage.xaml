@@ -9,7 +9,32 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <ScrollViewer>
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid VerticalAlignment="Top" Height="180" HorizontalAlignment="Stretch">
+                    <Image Source="/Assets/SplashScreen.scale-125.png" HorizontalAlignment="Center" Stretch="Uniform" Margin="0,0,0,24"/>
+                    <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="36" FontFamily="Consolas" Margin="0,114,0,0">ПАРУСА</TextBlock>
+                </Grid>
+                <ListView x:ConnectionId='2' x:Name="itemsActions">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ListViewItem  Background="#FFDBEAFF" Padding="10"  Margin="10,10,10,10" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch">
 
+                                <VariableSizedWrapGrid Width="400" MaximumRowsOrColumns="2" ItemWidth="200" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                    <Grid Height="150" HorizontalAlignment="Left" Width="150">
+                                        <Image Source="{Binding PathImage}"/>
+                                    </Grid>
+                                    <StackPanel Width="200" Height="150" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+                                        <TextBlock FontSize="24" FontFamily="Consolas" TextWrapping="Wrap" Text="{Binding Name}"/>
+                                        <TextBlock FontSize="16" FontFamily="Consolas" TextWrapping="Wrap" Text="{Binding Descript}"/>
+                                    </StackPanel>
+                                </VariableSizedWrapGrid>
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
 
