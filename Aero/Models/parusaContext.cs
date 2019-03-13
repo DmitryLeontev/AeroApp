@@ -23,7 +23,7 @@ namespace Aero.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
          {
              #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-             optionsBuilder.UseSqlServer(@"Data Source=webparusa.database.windows.net;Initial Catalog=parusa;User ID=parusAdmin;Password=440827dimaS;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
+             optionsBuilder.UseSqlServer(@"Data Source=webparusaa.database.windows.net;Initial Catalog=parusa;User ID=parusAdmin;Password=440827dimaS;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
          }
         //public BloggingContext(DbContextOptions<BloggingContext> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
